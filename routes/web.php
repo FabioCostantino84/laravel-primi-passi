@@ -31,3 +31,13 @@ Route::get('/about', function () {
     ];
     return view('about', $info);
 });
+
+Route::get('/contacts', function () {
+
+    $title = 'CONTACTS';
+    $name = 'Fabio';
+    $surname = 'Costantino';
+    $mail = 'fabiocostantino84@gmail.com';
+    $cell = '328 1234567';
+    return view('contacts', compact('title', 'name', 'surname', 'mail', 'cell'));
+});
