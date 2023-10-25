@@ -22,10 +22,12 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
 
-    $info =[
-    'title' => 'ABOUT' 
+    $info = [
+        'title' => 'ABOUT',
+        'name' => 'Fabio',
+        'surname' => 'Costantino',
+        'role' => 'Junior Full Stack Web Developer',
+        'mission' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aspernatur quis exercitationem reprehenderit. Excepturi, optio perspiciatis necessitatibus voluptas ex placeat iusto autem voluptates molestiae eveniet adipisci consectetur asperiores neque in? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aspernatur quis exercitationem reprehenderit. Excepturi, optio perspiciatis necessitatibus voluptas ex placeat iusto autem voluptates molestiae eveniet adipisci consectetur asperiores neque in?',
     ];
-
-    
     return view('about', $info);
 });
