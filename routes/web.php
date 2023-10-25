@@ -19,3 +19,13 @@ Route::get('/', function () {
     $name = 'Fabio';
     return view('home', compact('message', 'name'));
 });
+
+Route::get('/about', function () {
+
+    $info =[
+    'title' => 'ABOUT' 
+    ];
+
+    
+    return view('about', $info);
+});

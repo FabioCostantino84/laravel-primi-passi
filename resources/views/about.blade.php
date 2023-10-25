@@ -10,18 +10,14 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-        <!-- Styles -->
 
     </head>
 
     <body class="antialiased">
 
-    <h1>HELLO WORLD</h1>
+    <h1>{{$title}}</h1>
 
-    <h4>{{$message}}</h4>
-    <h6>Questo è il primo progetto Laravel di: {{$name}}</h6>
 
-    <a href="/about">ABOUT</a>
         
     
     </body>
